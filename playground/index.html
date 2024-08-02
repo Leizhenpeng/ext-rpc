@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test In Dom</title>
+</head>
+
+<body>
+    <h1>Sender Window</h1>
+    <button id="action">test</button>
+    <textarea id="response" cols="30" rows="10"></textarea>
+    <script type="module">
+        import { one }from '../dist/index.js';
+        document.getElementById('action').addEventListener('click', () => {
+            const result =  one;
+             document.getElementById('response').innerText = ' received: ' + result;
+        });
+    </script>
+</body>
+
+</html>
