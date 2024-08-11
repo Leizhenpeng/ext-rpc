@@ -1,2 +1,2 @@
-export const one = 1
-export const two = 2
+export { registerRPCService as register } from './rpc'
+export { getRPCService as rpc } from './rpc'
