@@ -1,7 +1,7 @@
 {
   "name": "ext-rpc",
   "type": "module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "packageManager": "pnpm@9.1.1",
   "description": "🔧 Enhance your Chrome extensions with efficient and type-safe RPC communication across all layers.",
   "author": "leizhenpeng <laolei@forkway.cn>",
