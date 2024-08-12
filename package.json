@@ -1,7 +1,7 @@
 {
   "name": "ext-rpc",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "packageManager": "pnpm@9.1.1",
   "description": "🔧 Enhance your Chrome extensions with efficient and type-safe RPC communication across all layers.",
   "author": "leizhenpeng <laolei@forkway.cn>",
@@ -61,7 +61,7 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "ext-msg": "latest"
+    "ext-msg": "^0.0.8"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.1",
